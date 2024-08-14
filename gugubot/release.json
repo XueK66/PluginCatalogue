@@ -1,0 +1,52 @@
+{
+  "schema_version": 8,
+  "id": "gugubot",
+  "latest_version": "1.0.6",
+  "latest_version_index": 0,
+  "releases": [
+    {
+      "url": "https://github.com/LoosePrince/PF-GUGUBot/releases/tag/v1.0.6",
+      "name": "v1.0.6",
+      "tag_name": "v1.0.6",
+      "created_at": "2024-08-09T04:21:23Z",
+      "description": "# GUGUBot-v1.0.6 CoolQAPI更新兼容\r\n\r\n## 更新说明\r\n> 适配 MCDR版本 `2.13.1`\r\n\r\n- **GUGUBot**\r\n\r\n1. 修复BUGs\r\n\r\n- **CoolQ API**\r\n\r\n1. > 更新兼容((QQ框架)，版本不变\r\n2. 之后会在[PF-CoolQ](https://github.com/LoosePrince/PF-CoolQAPI)中维护CoolQAPI\r\n3. 请在[PF-CoolQ](https://github.com/LoosePrince/PF-CoolQAPI)中下载CoolQAPI\r\n\r\n- **提交对比**: 无\r\n\r\n- **更多**\r\n如果需要更多联动或提交想法和问题请提交 [Github](https://github.com/LoosePrince/PF-GUGUBot/issues) 或 QQ [1377820366](http://wpa.qq.com/msgrd?v=3&uin=1377820366&site=qq&menu=yes) 提交！\r\n视情况添加，请勿联系他人（开发者：[雪开](https://github.com/XueK66) @XueK66 ）\r\n\r\n#### 注意大小写！",
+      "prerelease": false,
+      "asset": {
+        "id": 185720286,
+        "name": "GUGUbot-v1.0.6.mcdr",
+        "size": 12212439,
+        "download_count": 6,
+        "created_at": "2024-08-13T15:55:00Z",
+        "browser_download_url": "https://github.com/LoosePrince/PF-GUGUBot/releases/download/v1.0.6/GUGUbot-v1.0.6.mcdr",
+        "hash_md5": "41e513a27ff285df9c82f04b7aa5bf43",
+        "hash_sha256": "78b962fc2d29fc4e133175285e0d1306bbc690aeeb63a3bd9aa11c400437541e"
+      },
+      "meta": {
+        "schema_version": 4,
+        "id": "gugubot",
+        "name": "GUGUbot",
+        "version": "1.0.6",
+        "link": "https://github.com/LoosePrince/PF-GUGUBot",
+        "authors": [
+          "XueK__"
+        ],
+        "dependencies": {
+          "mcdreforged": ">=2.1.2",
+          "cool_q_api": ">=0.2.0"
+        },
+        "requirements": [
+          "mcdreforged>=2.1.2",
+          "Flask<=2.0.0",
+          "Werkzeug<=2.0",
+          "pygame",
+          "requests",
+          "pyyaml"
+        ],
+        "description": {
+          "en_us": "A QQ bot connect MC and QQ",
+          "zh_cn": "一个QQ和MC互通的机器人"
+        }
+      }
+    }
+  ]
+}

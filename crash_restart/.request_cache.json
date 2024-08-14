@@ -1,0 +1,42 @@
+{
+  "NOTICE": "Not public API, DO NOT use this file",
+  "release_pages": {
+    "1": {
+      "etag": "\"7e67fc9ee9d7667f66509b5d5c9e61815192e5f82a82f6cbb97f8af35056a74c\"",
+      "data": "H4sIANvSvGYC/+2YbW/aMBDHvwri7UocQoCANFVrWadOKqgdZRPVFJnEJGmdOIodOkB8952dBBgtfUi7vRmvEOe7350v9t9ObpbVNKHVbqXqCxHzLkI4DjQvEH460RwWooTEjKPh+bfrKGAROk0w968IFzgRMEYJ5oQj0zIaRttqVo8qVcw5Edx+RyrKkBKexpRhdxeeWflbEyyPIxySI4onhK5kNl+EdDfXVo5n6AJ7aFbXdE2XrMAFSpFQtikVPkvAtqxS5gWRzHGGKSVR7SQhWPjrIMPqtC1Lb8H/iLnEVsbqRe+yNfrRp87tuTkYOuag98lQ7Z9hKONB+5W16FDKSeKwSJBIqImkqMhxPPtoSoqX5JwsmWr9kw9UIjl6MIFnOvjAf8ooZfeAsl+dDq1jN6Ag8kqDIHaJmPAJNBOc1ILwAi7KlKbiluoHOqpQcrEkxC0ByyOhuPsI6lqqtZ4x0wl3kiAWsCjLlPlHvASyxMNRsMBlgRCvOGo3lohXcRJAZrBWyxCywCWKk2CGnfkqq8YhwQx6X5q6Q5BQMY+JpFyDu3oWgSA2dkO1s6eYcrLa3cBO6zoc8fH3s8V4eGle3F7M+wuvrmDYs6UWSb+NhMBz94iwoagwEAH35WiIucgSFv7bYlTJxUiOuwmeiqIW+B8npBjdGB05P5gXlp5VQzfqNd2qGcZQN7tGq1s3xxIVpxMK+ff4Nepd0xhvjgLwuHmXUybDIdPodKxmp7FR1dyw29/P8wH9SidfRr5jjE6cRp+6vcv5YHhn9od3i309q2UN10LHVX1VxwE4RSml6xOIHJT7oNwH5f6PlDvfdXbhjeOYBo7qL2KOIKLGBaQI8xUilFMuFm6GXUhbvdEypSC4sAbUXdZhaSRV1Oy09WcUGJTVaI6ze7D7pFdbeU0Sdg+Tste5St9lC0J+oUV7BRNa9Re03trVeutVWm/u03otnh8k/iDxB4k/SPwjEi/IL4FiisHrGVGHt/r6Y5pebzaMF2h650Wa3vmHmi6FcfUze+eYQHff8DknJ2x9ClkE8RuZOWGLOWHuXCnvae+qYmh6ZcqSEIsKjtyKrnW01ofcAtP6DSTzMmj0EgAA",
+      "empty": false
+    },
+    "2": {
+      "etag": "\"f5ac6239dc9c27f6431c92b538a9875ef5a02218e92d0c3324d11b1431881652\"",
+      "data": "H4sIAOyo8WUC/4uOBQApu0wNAgAAAA==",
+      "empty": true
+    }
+  },
+  "asset_data": {
+    "42998593": {
+      "meta": {
+        "schema_version": 4,
+        "id": "crash_restart",
+        "name": "Crash Restart",
+        "version": "1.0.0",
+        "link": "https://github.com/MCDReforged/CrashRestart",
+        "authors": [
+          "Fallen_Breath"
+        ],
+        "dependencies": {},
+        "requirements": [],
+        "description": {
+          "en_us": "Automatically restart the server after the server crashed",
+          "zh_cn": "在服务端崩溃后自动重启服务器的插件"
+        }
+      },
+      "size": 13646,
+      "hash_md5": "5479b2b405794678aac75895373cd540",
+      "hash_sha256": "511f4d2ffa2f5bbe089a731af6de59c1ddac0016dd85f0ca438d6c2c892cb3ff"
+    }
+  },
+  "repos_info": {
+    "etag": "\"6778807da9270c480f008e6e0a38a84a2d768b3d390af70543c9ae5aa6d5812b\"",
+    "data": "H4sIAGlES2YC/+2YX2/bNhDAv4rg1yWW7NppYiDohmUzOjR/1rlY4WEwKImWGFOkRlJ2HcHffUeKkiVn8+LwaUBenIji/Xg6Ho93V/ZI3Jt4w8vLYXA1uLg683qMx3hhRnu3Nz9t7ukvNJpePaGvn9cRW23vb5Lt7c3q293j6rqnp6MM67k/CiTTz1gqJJQeXxaULuqXs4+/fWGEM/9wVi7IGik9Z4moxDDCNwwLeC57lCeEtaW1gFFsNB4NR8Hlc22396ur7Xz4c4G+5mk8pevw8dfB3c3H4PYmGWtxBKshsSgE1RKpUrmc+H41KvsJUWkRFhKLiDOFmepHPPMLv17vw/p6pCmJsJxqYT10SMyJpVUIQEq//R2pyuihGi2B9tQlp5RvALA4ZRG/EdszCEtewwCx0ucqxWA4eL8zJiBSnaiQESnNHzCcoWg/EDg+jWOFQCXtKrvSFzjnFa4IZSRIrmDaicp1RDWLiwQx8oRewQJRg9B6nShqRLQsXoP7nShcyZS+OVTRdlfpEGGyBhO/BnggrHlqm5sTfd8yjzE9UXiB4sycWHOWdy/38mdhIcbNZmjRHzxJspxiL6cFxARPcQ8VimeweoQo3XqiEvXARz34hDUWHloq+G0NRHoNHFenQaxaIee4TcyW/LuqmvVfZj2C8I28Bq3w1oWjxUv9W5+tCM4uCrlAigsXcIdTdh7NOgqjzIVv5E1I5NzJkkbe3BFSFvhlDn+MZzCyOVWsyEIb/JzR+/OEpCQJw9iF1jBKv4nPoUAsSp2wNaK0/1W7jRKnzUZVaAwpD104MM03jNKXKbI3klo4aqepGtGFCrx0hWrEHqqE234bNYXZ7xoJLxTsvQu1RvhlDaWIJQVKnKgNo77uE/SEhaOeFlJFOaYECQvnILfHtDKJ0FHVPeUwPXGn5vXVC/Mzoty+3hC6bu+O1X76DK0HHKNnjejE5Cro21fuUf8f17BVgaujaYRffpcjldYmyZHAbhbRBL8MESRe/X6/TDGq0oAMC7cTXAHMXSWiFNJBB1ZZIyDrgezN5O5Lo2YMyTzlKHbRtGE0/uB+/Xf2P4ea1gVp5DvEjFB4x5nbDjWQDptxRZaQIL+kgjmG73DKD5KwCJ9B2n0GLgcJOAE/hgrR3hghpm7XhQbAZ6AM2/qFYuR2sdWI0reZcYxzyreuUahFMYdYYKSgVEJK84bBMDgPLs8H72eD0WT8fhIM56ZNkMfdWaPzYHw+DGaDwWR8MQku55Wf6UplP2mgUcPhLBhN3g0mo8G8jtFWe/j3BYWV/jBzDcm0Jfj9XmxyVCyi4GGnFnPNmmv2mjow5RnOIXsAOQZnx9SZT/ppcNVNJyJeMG0tPbxBCtLWg8E6D9EaPGxVarswSC6qcw7jShTYjuWCP+JIHYzu40tneENW5EDcJDz7AtMIExkVkKjr9sL+TVU91oqOTUQQgtcdKvvRNmrGLUHAoZB2hniOmf2ahjjQn04izCQ2PTWoD82+5/T8XT9o9++md1+8KWZYIOo9FCEIeZ8qQW9tp8o8/mZbXtOHTzXg+Amyi0u/vWS7ZxddzKb0cf77+Gk+W133dNcA6aaTviJWEFf2liVyoXCW026/cINDm6osdBXEl0tI2P8qiOjYRvGcRNrwf/wJT2siSUgoUcYYufnappa3+9CyprVj7VfWo2K8RAVVi6o40qAMSYWFOcBYZKTZ7LLXaYzoTUaEKdQZ0me+rbAglbfu31NqbbEzVXeWL6ojqfgKs7oPCT6meKYdGHRQxChf7g76WW/t1bf26lt79f/fXmVYbSBkde6PduXa3AK7vwEvyW5Z6BkAAA=="
+  }
+}

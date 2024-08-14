@@ -1,0 +1,44 @@
+{
+  "NOTICE": "Not public API, DO NOT use this file",
+  "release_pages": {
+    "1": {
+      "etag": "\"f39c831167416defa22bca3e612946b263dfd58d3619187e37f765817be249a8\"",
+      "data": "H4sIAPjIumYC/+1XXW/iOBT9KxHPA3E+gIC0Gs2WdjUjQdUO7a6YWTFOYoJbJ44SBxpQ//tcOwECnbZLCw+z4gGhOPee41zbx/d8W9ayhNW6Wm0qRJx2dR3HtBFQMc3chsdDPSExT/UL6hP2kC/0/lnvun5NIjLHLmVU5BDACE5Jqtsdo9Ux283aB62G05SIdHxoaL3AlQxZzDj2dxmK0fQgLMuPEQ7JB4Zdwh4l5VSEbJewQvRfKAQO9JnRMBpIAlIfoFassmqZmPIExpY1xgMaSaIV6jreMjudpoHa8Bxxn4zVYK3fu2rd/jNg3l0/vxzeG/3hJ0stxAwLnDxZCDW6KlOWksTjkSCRUB+S6SuOj7M/bIkSJCVOQabq/+LSSshN0fcongydcMb4HADG+5Do67QNBo2Ct2BA2lLnYkqgcPBeLX5AU7HnhFTKUv1B4RRKCkVMiL8fTpkEU5pHMJul2tIFXOamXkJjQXm05+S2UiUWTwIc0QV+AxakKgh11PZLVSkyl8xg++2ZXOQs9TihM+zlj8UcPEJnUOK3AO4kSzyRx0QC3ECkKjkVZIz9UJ3OCWYpedw+idfn4/t57/LCcj5njn3Wvh+0FQ4OxlJPZMhGAWBlAyLGMJWQCppO5dsQA7bELKOrSqJtUv0ET8RqDvAcJ6SUmcqglxAs4HuwjKyZyDTqqFNHzhBZXavdNdojCRVnLgPyZ+LsZhc5o42qQ8S3w90aBaZu22bbNFBFFsuBneJ+2iout6P750rVCD1frZgScHgbZYytLw5yktmTzJ5k9jeT2fL4jFfROI4Z9VQtde4JIuqpAMULyz0gVFB54P0CdiHHWoZjSwmFlVZdpMezSCqfYTrOK6ppW12ERkUH6r8Y1VJRbsLn8E3jNdf7GsgVTNlF6k8V7/Hf4l5xMWPvbcBLmErLuqDxIYBLmAqwy/1cIn7N4pgnQpM5mtl4aHxPvkfyd8ajCQ20CWVEC/mMpNok4aH2w1PjW4UoQht3KY9+aIKvY5LqFLxK0JqkB/L7lCJmGVwTWxRbDzLrFTZ/HdKowU4+oOtqNw24RMxjuK4S+siua5vliK4LVV1XyXpyXad24NQO/P6uq9/zWjfhbTr6+2IxGl5Zg+F5E375L6wXerv1Qu+0Xg50CEPkdFGza5svWK91XKdr2Ee3XiZq2i3b2mhjObBb4fP8kn1h7l+3U8+8/dOzBszvXeX93g0a3F0tnvVhcX5yYSfZPcnu/9aFCfIg9Id6nEMfFdWLQr/qwJqO8WsH9pp0giQ+77+qUdax/Rfa9V+gdEdyX+hY7gttuy+Y/0/FX21aEhoAAA==",
+      "empty": false
+    },
+    "2": {
+      "etag": "\"f5ac6239dc9c27f6431c92b538a9875ef5a02218e92d0c3324d11b1431881652\"",
+      "data": "H4sIAO2o8WUC/4uOBQApu0wNAgAAAA==",
+      "empty": true
+    }
+  },
+  "asset_data": {
+    "44272100": {
+      "meta": {
+        "schema_version": 4,
+        "id": "renewability",
+        "name": "Renewability",
+        "version": "1.1.0",
+        "link": "https://github.com/Fidelxyz/MCDR-Renewability",
+        "authors": [
+          "Fidel Yin"
+        ],
+        "dependencies": {
+          "mcdreforged": ">=2.0.0-alpha.1",
+          "minecraft_data_api": "*"
+        },
+        "requirements": [],
+        "description": {
+          "en_us": "A plugin that allows players to clone non-renewable items"
+        }
+      },
+      "size": 6184,
+      "hash_md5": "fb0fa6439c36f6a68fc4350eef1c61d2",
+      "hash_sha256": "f380c35a8eb520bf32cf3448c46d924f7b06de254541497ad3823417f36ce814"
+    }
+  },
+  "repos_info": {
+    "etag": "\"8a6a24e3923db6d9c7688015189609e8fb1b97bc2f7c335be4d0cce70c75ce79\"",
+    "data": "H4sIAKjplWYC/62YW2/iOBSA/0rE6xYC9DYgVbOjnd1Kq+llKro76mqFnMQQF8fO2g4MRPz3Ob7kxlbT0uSlBcfn88nhXJ33SNSbeqeTs/FwNL48P/F6jEd4blZ7N59/39zRP2l4Pdmhbw/rkK12d7OvW1jf3u4er3p6O0qw2fvb54f+A2Z4gwJCidrqh4uM0nmx4w8SYfp9u/Nf3JoKskZKb1wgKjGs8A3DAr7nPcqXhNURWsAqPp5MzkfDy0O9v1789e2Whs8327vZanQz+3SqRRCcgMQ8E1TvipVK5dT37aocLImKsyCTWIScKczUIOSJn/nFGR/XV2eashSOYw/TS4fElDiaRQBS+nXdY5XQQzVqAvWtC04p3wBgfswhfilWMQhbvocBYrnPVYzBcPB8b0xApDpSISOSm39gOEORYESBo+M4TghU0u6xz32BU25xWSBDQVJFODtSuYaoZnGxRIzs0DtYIGoQWq8jRY2IlsVrcL8jha1M7ptACrd7q0OIyRpM/B7ggbDmqW1qQvkRdhqTE4XnKEpMdJq43b/du1/OAxEufwkt/8nTu7yUZpACPBUj5SHtlRKW0Bb09RT3QsoZ9hhnfWFpFHugWSIH1vvFqpZWfm4D8xO8oqIGvmbL1zi+gWjaCm9bwzQj13+L0AohdFHABVJctKY3YHnjqzlMYZS0PsRATG7kvL11DcRUCSkz/Db3fxVqWLIMNJYlgcuH3fCrOENSkiXDuDWyBOV+mbwDgVgYt2cXnNx9sr6Alu1dAdkMGlAetIbBXt+Acl/GyFUvNe9CT43WnCZZ4EUnZM2pyEp04A1GYWG8oeBCOVXgGa3RBcfPCzJFbJmhZXt0CSp6hiXaYdGFxo5kEyZTggRZN/myYtUak6ALpSvUYcvTEdpWXmORJCGqA2MYTDNGOmJrf/4fXy90kY0LTiPR23LiHnVUT148yI0gnfii5vj5LylScWGhFAncgYE0xs8DBH3fYDDIY4xs+5Fg0UHgW4qphyKMoRVtC8wLDjRfCVJmeFgYhSOYJihHUWudS1DpLR21HQ3vSGGubs01kAY2IRRLBb10+5+uJDUOYFyRBQnfNFa9ekYDln+UhIX4BIaDE/BKRUIC/g6zq6tFAaYdFCJNgRdCCXbjFcWog+JZcHLfte8RTinfdpLGaigT+wIjBTMdUho6Ho5H/eGH/nAyG15Oz8+nw8snc5+RRs1dZ/3hZX90MRueToej6Wj0ZL1QxgeoCdD0pjNAfXgq0r17Bfj41klQv6IpcDKuSf9ayU5flzVT4bvm0PL0NXv3HBvzBKfQtRRXRJLs9OfxuNnEhDxj2n56eYMU9NMHi0X3ozn3WxXb4hwjObd5AdaVyLBbSwV/xqE6WK2SUmN5Q1bkQNy0WdWsbISJDDMYI/TNSPXEzsCFoiOTPITgxeUag9xS5e2oJgg4PZ/Xl3iKmXubkjjUr05CzCQ2V4Aw2xonSGn/dDCsXzxe3z5612B8gah3nwUg5H2xgt7abZVp9N3d1l3ffykAPw8sd7j060fWrxjDi9k1fX76+3z3NFtd9fTFh7mZ0MVlBYmnsiyRc4WTlDavNzc4cH3QXM9ofLGA0eG/jIiGbRRPSagN/08vCSMoVxxqYmSTNcOhQAvV+xe+rYkkzvmmOjK1Hcq7CvcL1ezsLFx4nPO1CC9QRtXcznMalCBi/C3FIiGlE+S9xp3Pid2nUGNJZ4f6iwhivbh6Tqmz0d5cIiTp3Ias4ivMirhhWG3gHRquVm+oy1jZ/wDw0rzdzBYAAA=="
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "schema_version": 4,
+    "id": "qq_bot",
+    "name": "QQBot",
+    "version": "2.0.1",
+    "link": "https://github.com/Minecraft-QQBot/Plugin.McdReforged",
+    "authors": [],
+    "dependencies": {},
+    "requirements": [
+      "mcdreforged~=2.12.3",
+      "websocket-client~=1.8.0",
+      "psutil~=6.0.0"
+    ],
+    "description": {
+      "en_us": "一个基于 Nonebot2 的 Minecraft 服务器 QQ 机器人对接的 Mcdr 插件，支持多服使用。"
+    }
+  },
+  "plugin": {
+    "schema_version": 1,
+    "id": "qq_bot",
+    "authors": [
+      "Lonely-Sails",
+      "meng877"
+    ],
+    "repository": "https://github.com/Minecraft-QQBot/Plugin.McdReforged",
+    "branch": "main",
+    "related_path": ".",
+    "labels": [
+      "information",
+      "management"
+    ],
+    "introduction": {
+      "en_us": "# McdReforged\n\n### [**文档**](https://qqbot.bugjump.xyz/文档/安装插件/McdReforged.html)\n\n与 [BotServer](https://github.com/Minecraft-QQBot/BotServer) 进行对接的 Mcdr 插件。\n\n你可以到 [Releases](https://github.com/Minecraft-QQBot/McdReforged/releases) 下载最新版本 Mcdr 服务器插件。\n\n## 功能\n\n- 可以使用 !!qq 发送 QQ 群消息。\n\n## 安装\n\n使用此插件前，你需要先安装 `Websocket-Client` 依赖。输入如下指令安装：\n\n```bash\npip3 install websocket-client\n```\n\n将下载好的 `QQBot.mcdr` 文拷贝到 MCDR 的 插件文件夹 下，安装完成。\n\n## 配置\n\n编辑 配置文件夹 `qq_bot` 下的 `config.json` 文件。配置文件内容参考如下：\n\n```json\n{\n  \"uri\": \"ws://127.0.0.1:8000/\",\n  \"name\": \"服务器名称\",\n  \"token\": \"令牌\",\n  \"reconnect_interval\": 5\n}\n```\n\n其中各个字段的含义如下：\n\n|        字段名         | 类型  |                  含义                   |\n| :----------------: | :-: | :-----------------------------------: |\n|        uri         | 字符串 | WebSocket 连接的 Uri，格式为 ws://host:port/ |\n|        name        | 字符串 |             服务器名称，中英文都可。              |\n|       token        | 字符串 |      口令，和服务器配置文件下的 TOKEN 保持一致即可。      |\n| reconnect_interval | 整数  |         重连间隔，单位为秒，通常来说不需要修改。          |\n\n其中 Uri 的 host 和 port 就是你的主机名和机器人配置的端口号。\n\n当你看到类似 `身份验证完毕，连接到机器人成功！` 的日志时，说明你的服务器已经成功连接到机器人服务器。若出现错误提示，请确保你的机器人服务器已经开启，或者配置文件的\nPort 是否正确。你可以通过 `server` 指令查看服务器是否连接上机器人。\n\n> [!TIP]\n> 若插件遇到问题，或有更好的想法，可以加入 QQ 群 [`962802248`](https://qm.qq.com/q/B3kmvJl2xO) 或者提交 Issues\n> 向作者反馈。若你有能力，欢迎为本项目提供代码贡献！\n",
+      "zh_cn": "# McdReforged\n\n### [**文档**](https://qqbot.bugjump.xyz/文档/安装插件/McdReforged.html)\n\n与 [BotServer](https://github.com/Minecraft-QQBot/BotServer) 进行对接的 Mcdr 插件。\n\n你可以到 [Releases](https://github.com/Minecraft-QQBot/McdReforged/releases) 下载最新版本 Mcdr 服务器插件。\n\n## 功能\n\n- 可以使用 !!qq 发送 QQ 群消息。\n\n## 安装\n\n使用此插件前，你需要先安装 `Websocket-Client` 依赖。输入如下指令安装：\n\n```bash\npip3 install websocket-client\n```\n\n将下载好的 `QQBot.mcdr` 文拷贝到 MCDR 的 插件文件夹 下，安装完成。\n\n## 配置\n\n编辑 配置文件夹 `qq_bot` 下的 `config.json` 文件。配置文件内容参考如下：\n\n```json\n{\n  \"uri\": \"ws://127.0.0.1:8000/\",\n  \"name\": \"服务器名称\",\n  \"token\": \"令牌\",\n  \"reconnect_interval\": 5\n}\n```\n\n其中各个字段的含义如下：\n\n|        字段名         | 类型  |                  含义                   |\n| :----------------: | :-: | :-----------------------------------: |\n|        uri         | 字符串 | WebSocket 连接的 Uri，格式为 ws://host:port/ |\n|        name        | 字符串 |             服务器名称，中英文都可。              |\n|       token        | 字符串 |      口令，和服务器配置文件下的 TOKEN 保持一致即可。      |\n| reconnect_interval | 整数  |         重连间隔，单位为秒，通常来说不需要修改。          |\n\n其中 Uri 的 host 和 port 就是你的主机名和机器人配置的端口号。\n\n当你看到类似 `身份验证完毕，连接到机器人成功！` 的日志时，说明你的服务器已经成功连接到机器人服务器。若出现错误提示，请确保你的机器人服务器已经开启，或者配置文件的\nPort 是否正确。你可以通过 `server` 指令查看服务器是否连接上机器人。\n\n> [!TIP]\n> 若插件遇到问题，或有更好的想法，可以加入 QQ 群 [`962802248`](https://qm.qq.com/q/B3kmvJl2xO) 或者提交 Issues\n> 向作者反馈。若你有能力，欢迎为本项目提供代码贡献！\n"
+    }
+  },
+  "release": {
+    "schema_version": 8,
+    "id": "qq_bot",
+    "latest_version": "2.0.1",
+    "latest_version_index": 0,
+    "releases": [
+      {
+        "url": "https://github.com/Minecraft-QQBot/Plugin.McdReforged/releases/tag/v2.0.1",
+        "name": "v2.0.1",
+        "tag_name": "v2.0.1",
+        "created_at": "2024-08-03T09:39:37Z",
+        "description": "修复一些已知问题。",
+        "prerelease": false,
+        "asset": {
+          "id": 183947756,
+          "name": "QQBot-v2.0.1.mcdr",
+          "size": 6252,
+          "download_count": 12,
+          "created_at": "2024-08-05T07:26:07Z",
+          "browser_download_url": "https://github.com/Minecraft-QQBot/Plugin.McdReforged/releases/download/v2.0.1/QQBot-v2.0.1.mcdr",
+          "hash_md5": "b846317f040fafee16c8a683fd0a0d3b",
+          "hash_sha256": "e18dbcab0ad6a99e66e1de6c046fa7c98c79e23c6ab8a42b501207f1562f551f"
+        },
+        "meta": {
+          "schema_version": 4,
+          "id": "qq_bot",
+          "name": "QQBot",
+          "version": "2.0.1",
+          "link": "https://github.com/Lonely-Sails/Minecraft_QQBot",
+          "authors": [],
+          "dependencies": {},
+          "requirements": [
+            "requests>=2.22.0"
+          ],
+          "description": {
+            "en_us": "一个基于 Nonebot2 的 Minecraft 服务器 QQ 机器人，支持多服使用"
+          }
+        }
+      },
+      {
+        "url": "https://github.com/Minecraft-QQBot/Plugin.McdReforged/releases/tag/v2.0.0",
+        "name": "v2.0.0",
+        "tag_name": "v2.0.0",
+        "created_at": "2024-08-01T09:15:49Z",
+        "description": "添加对 V2.0.0 机器人的支持 。",
+        "prerelease": false,
+        "asset": {
+          "id": 183178428,
+          "name": "QQBot-v2.0.0.mcdr",
+          "size": 6227,
+          "download_count": 7,
+          "created_at": "2024-08-01T09:34:36Z",
+          "browser_download_url": "https://github.com/Minecraft-QQBot/Plugin.McdReforged/releases/download/v2.0.0/QQBot-v2.0.0.mcdr",
+          "hash_md5": "1485dbc9301d8f3c62339657850e70e8",
+          "hash_sha256": "5d7660f7da4f8603578ec8f88c94948b9d1d67939d8dc00ebeb60fc3e14d4dc6"
+        },
+        "meta": {
+          "schema_version": 4,
+          "id": "qq_bot",
+          "name": "QQBot",
+          "version": "2.0.0",
+          "link": "https://github.com/Lonely-Sails/Minecraft_QQBot",
+          "authors": [],
+          "dependencies": {},
+          "requirements": [
+            "requests>=2.22.0"
+          ],
+          "description": {
+            "en_us": "一个基于 Nonebot2 的 Minecraft 服务器 QQ 机器人，支持多服使用"
+          }
+        }
+      },
+      {
+        "url": "https://github.com/Minecraft-QQBot/Plugin.McdReforged/releases/tag/v1.3.0",
+        "name": "v1.3.0",
+        "tag_name": "v1.3.0",
+        "created_at": "2024-07-22T00:58:01Z",
+        "description": "添加多服互联功能。",
+        "prerelease": false,
+        "asset": {
+          "id": 180996203,
+          "name": "QQBot-v1.3.0.mcdr",
+          "size": 2909,
+          "download_count": 11,
+          "created_at": "2024-07-22T01:05:04Z",
+          "browser_download_url": "https://github.com/Minecraft-QQBot/Plugin.McdReforged/releases/download/v1.3.0/QQBot-v1.3.0.mcdr",
+          "hash_md5": "f9cfb207b57d2f6417a12395ceb44936",
+          "hash_sha256": "728f3c6380c3b178f0a7db4c818673bdf2a4d7f4f666f5dd5189912d6487ffda"
+        },
+        "meta": {
+          "schema_version": 4,
+          "id": "qq_bot",
+          "name": "QQBot",
+          "version": "1.3.0",
+          "link": "https://github.com/Lonely-Sails/Minecraft_QQBot",
+          "authors": [],
+          "dependencies": {},
+          "requirements": [
+            "requests>=2.22.0"
+          ],
+          "description": {
+            "en_us": "一个基于 Nonebot2 的 Minecraft 服务器 QQ 机器人，支持多服使用"
+          }
+        }
+      }
+    ]
+  },
+  "repository": {
+    "url": "https://github.com/Minecraft-QQBot/Plugin.McdReforged",
+    "name": "Plugin.McdReforged",
+    "full_name": "Minecraft-QQBot/Plugin.McdReforged",
+    "html_url": "https://github.com/Minecraft-QQBot/Plugin.McdReforged",
+    "description": "与 BotServer 进行对接的 Mcdr 插件。",
+    "archived": false,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "forks_count": 1,
+    "readme": "# McdReforged\n\n### [**文档**](https://qqbot.bugjump.xyz/文档/安装插件/McdReforged.html)\n\n与 [BotServer](https://github.com/Minecraft-QQBot/BotServer) 进行对接的 Mcdr 插件。\n\n你可以到 [Releases](https://github.com/Minecraft-QQBot/McdReforged/releases) 下载最新版本 Mcdr 服务器插件。\n\n## 功能\n\n- 可以使用 !!qq 发送 QQ 群消息。\n\n## 安装\n\n使用此插件前，你需要先安装 `Websocket-Client` 依赖。输入如下指令安装：\n\n```bash\npip3 install websocket-client\n```\n\n将下载好的 `QQBot.mcdr` 文拷贝到 MCDR 的 插件文件夹 下，安装完成。\n\n## 配置\n\n编辑 配置文件夹 `qq_bot` 下的 `config.json` 文件。配置文件内容参考如下：\n\n```json\n{\n  \"uri\": \"ws://127.0.0.1:8000/\",\n  \"name\": \"服务器名称\",\n  \"token\": \"令牌\",\n  \"reconnect_interval\": 5\n}\n```\n\n其中各个字段的含义如下：\n\n|        字段名         | 类型  |                  含义                   |\n| :----------------: | :-: | :-----------------------------------: |\n|        uri         | 字符串 | WebSocket 连接的 Uri，格式为 ws://host:port/ |\n|        name        | 字符串 |             服务器名称，中英文都可。              |\n|       token        | 字符串 |      口令，和服务器配置文件下的 TOKEN 保持一致即可。      |\n| reconnect_interval | 整数  |         重连间隔，单位为秒，通常来说不需要修改。          |\n\n其中 Uri 的 host 和 port 就是你的主机名和机器人配置的端口号。\n\n当你看到类似 `身份验证完毕，连接到机器人成功！` 的日志时，说明你的服务器已经成功连接到机器人服务器。若出现错误提示，请确保你的机器人服务器已经开启，或者配置文件的\nPort 是否正确。你可以通过 `server` 指令查看服务器是否连接上机器人。\n\n> [!TIP]\n> 若插件遇到问题，或有更好的想法，可以加入 QQ 群 [`962802248`](https://qm.qq.com/q/B3kmvJl2xO) 或者提交 Issues\n> 向作者反馈。若你有能力，欢迎为本项目提供代码贡献！\n",
+    "readme_url": "https://raw.githubusercontent.com/Minecraft-QQBot/Plugin.McdReforged/main/README.md"
+  }
+}

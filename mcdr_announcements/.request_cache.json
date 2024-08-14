@@ -1,0 +1,87 @@
+{
+  "NOTICE": "Not public API, DO NOT use this file",
+  "release_pages": {
+    "1": {
+      "etag": "\"2a33632ba126eba26cefa01febc4d89f38a5f5b1e924f0609f82d96a8d72ec56\"",
+      "data": "H4sIAE9ivGYC/+2cb2+jRhDGv0rk12ezy7L8k6pTm6ua9HQ9qfVVVU4nhM3GRsGAYEmaWPnunV2D7RAb45whTbtSpCjj2ZnxLPsMv+Dk63JQZNHAPRvMOU9zV9P8NBzNQj4vJqNpstAylia5FiRB4hBHW0yDzPPjOCniKVuwmOfgEDE/Z7mGKSImQYYzeHc28POc8dw7eWxtFVikKNIo8YN6ipU1P02a5fvYX7B3kT9h0aPIOeeLqJ5xK1ObHNyf7Xh9iEdkhESKMIDg60JEKws+TzIwLgdRMgtjkbtMtPE3bIIQMnQwxEnAPGkdfPFuZh8+n/82mZ/P5K7c+tzPnu2KtFYtK3KWTZOYQ1XyPRXaOvj72x8MEWaWlYFWWeRmNG60iLnegfZ9FJ7XSRQld7DcOyKFtl61CRHGsxeEgFVLLeFzBl2Dl+VFMAtzflw5csVSfoOeySA59C9jwVFhyjVQ0F0MtSzllb2KVkzyaRamPEzi40p7slKESrKZH4cP/vGhYKWMIM/bUSvlCrGU3YrDcNTa1ZKllmbhrT+9f1xVMGXhLXT3BfFqa0U4fp8yeZzAUXY75Mzzg4U8i9d+lLPHp+fu95+9m7sPnz/O7z5++mRcOlGRyjj+zBOCIlyaJAC2eca4B7UtQh7mc+nvQzaRpcX6IPOveVUa/JxmrJSfLeM0Yz6Ht+kLz4GOdGOI4MsZI8fVkUvsKxEqLSYRVLDHj5quga42eg8eX083UFYxNWxijCzbwBu1qyy1rv+43fVfFzfDn7Y7tqNZo4dQbowUePCJiyhaTxamNFdprtLcf7XmlofGq7z9NI3Cqeyj9vcQTvcQkoH8gZIE5RXApWN5xFfG8EHYDMMhQjxho+WN5RTUQmiedUAsQQR182p1Rxo0eq0kdZIld/CmvHWi77ufrMLsvanU9gnf47fVrJn4UfS9d+plmMY7W8h5ilRlmMZUkyS4Fzn+hKsMroUz+cLZF7k/A7hwTkg9hFgW0h3cBfVUsTumnlqaXqlHH+mbiVoVoqhHTWA1gd829VwM/7h7aEU9pQS0oZ6X0w0ZYn2IyRhTlwC1mPvoZsvPcFxsdU43BjJsk9hbKlhZmujm8i9zUjTRDTR1JNIrvFHiqsT1P4g3yZQzPsw5CN3iMNpQtAttbPuAVAoJRLvZpual9882IHHaXtnrDW7K6dUH3JSpKrg5McjoJrFsgxhdgEwVu2OQqaXpGWS2fkFZFaJARs1aNWvfOMiEv1yctwQZ3AvIoKFujJHtGtSlTgPIVH7iMQ3uHGSIjmxgl62H2JWlCWQuiD4xmkEGK5BR4qrEVYGMe0Zsi+4CGUwPSCW1XGLuBZltL+s1QAZre2WvR5DB/YEM7hJkKCXEJnonIFPG7hpknqbpGWS2RnhViAIZNWvVrH3jIMOIedkSZFAfIIOcIdbHyHApgdHbCDLYHiPi6rprdP9EhmCMTQfTLZApLY0ggz46D80ggxTIKHFV4qpABkDGsJ2dIIP3gsxGAmkDyNS9egYZpO2VvR5BBvUHMqhrkLFsqzOQgdh9gMwmTa8gg5+BDBSiQEbNWjVr3zzI0EkrkMG9gQyyxhi51HFRS5ApPw3eOcjYFq6BDFgOgczFXpAZpfcKYJSoKlH9nwMMJfLDY88AhhzmF91qwy+v8dcyuM4vQu164xbcH7fgHriFOt1xC3V64Rb6Kv8IAD3nFqr+EYAasWrEvn1uMbxW3IL64xZTfIKbEhfhNtyCqwc1nXOL5Vg1bgHLAW6xHMUtSlSVqCpu2cstmFo7H7zoh7gFlM84zC3gZfbPLehVuQX1xy2ozi3f/gFkdS7owUwAAA==",
+      "empty": false
+    },
+    "2": {
+      "etag": "\"f5ac6239dc9c27f6431c92b538a9875ef5a02218e92d0c3324d11b1431881652\"",
+      "data": "H4sIAOyo8WUC/4uOBQApu0wNAgAAAA==",
+      "empty": true
+    }
+  },
+  "asset_data": {
+    "140486382": {
+      "meta": {
+        "schema_version": 4,
+        "id": "mcdr_announcements",
+        "name": "Announcements",
+        "version": "1.2.2",
+        "link": "https://github.com/yfy-dodo939/mcdr_announcements",
+        "authors": [
+          "dodo939"
+        ],
+        "dependencies": {
+          "mcdreforged": ">=2.6.0"
+        },
+        "requirements": [],
+        "description": {
+          "en_us": "A plugin running on MCDR to send announcements regularly."
+        }
+      },
+      "size": 4450,
+      "hash_md5": "300d20112a09e132512014b7c70f6feb",
+      "hash_sha256": "967573b363b96f4a9112b6705ab79557342c306ebecf25058ad53d14ee0c15dd"
+    },
+    "132081400": {
+      "meta": {
+        "schema_version": 4,
+        "id": "mcdr_announcements",
+        "name": "Announcements",
+        "version": "1.2.1",
+        "link": "https://github.com/yfy-dodo939/mcdr_announcements",
+        "authors": [
+          "dodo939"
+        ],
+        "dependencies": {
+          "mcdreforged": ">=2.6.0"
+        },
+        "requirements": [],
+        "description": {
+          "en_us": "A plugin running on MCDR to send announcements regularly."
+        }
+      },
+      "size": 3875,
+      "hash_md5": "a77f4e5008caa7e954912b5c387a8d00",
+      "hash_sha256": "1637252746aa10fe57d66759591517358f901b0f9fd75a036d36b2c489b137a3"
+    },
+    "131116915": {
+      "meta": {
+        "schema_version": 4,
+        "id": "mcdr_announcements",
+        "name": "Announcements",
+        "version": "1.2.0",
+        "link": "https://github.com/yfydodo939/mcdr_announcements",
+        "authors": [
+          "dodo939"
+        ],
+        "dependencies": {
+          "mcdreforged": ">=2.0.0-alpha.1"
+        },
+        "requirements": [],
+        "description": {
+          "en_us": "A plugin running on MCDR to send announcements regularly."
+        }
+      },
+      "size": 3489,
+      "hash_md5": "6e62f85a8e9d3434dcaf7e09da21c898",
+      "hash_sha256": "9c4258f9639b990f0b05608d5b87cd239e5380d14579cde89abace1fd3d47415"
+    }
+  },
+  "repos_info": {
+    "etag": "\"46ec20ddad1a5729501a35da1806fbcf554297e45ec74fa3654b4ade20cbc8e5\"",
+    "data": "H4sIAEpivGYC/62YX2/bNhDAv4rh1yWR4riJbWDoivSt6DYU6UuGQaCks8SZIjWSsuEI+e47nv573RxHAopUJnk/nk53xzuWcx7PN7MH/3658u9Xq6vZXKoYAhqdfwt2yeffvqSHL18/zd0Uy8CNZ1GsAyalKmQEGUhr3Oy2ECJolsQqVuu7tffjpbnme2bdwi0TBnBEHSRo/F3OhUq47CHcelLndrm6831/uRgq+Z2UfPw1TB8Tt5Yhmemg0MLNptbmZuN51ai5SbhNi7AwoCMlLepzE6nMK7wW/nH/89JhEl2Dql3c0Cky5zWuYiDTeD2lU5uJUzV663srt0oIdUDx4IItvFaqQ3CZvAOBUqWnbApoNZx+pdfnxl6mDkmU9B/ajCAG7achvghTy6BCziNeS09DripaEZpI89xyJS9TbSDpUEonTPIXdjkKJYngtLpMkiScKOxdGFwkW4mUHsVNdHytNIiA79G67+CdyDqcPeYUuN9xIVmbWwhYnFEsUpS+vtmn/yPqY2i/gpP/NMtFgbE+04WU6IMzJWdfHz9/m1k1MyDj2QDgZi3H5ELOrne93PH/b052P6OZA56z4DmORxBH28FxNMwxSve3iaUIQ5WFSjOr9Gj6AFYOftJmFlg2ehOCUCJUarx1CUJngTEFvM3pz0KJZdrwkkUW1vlvGn4XXswYnkiA0cgWVHptsg41k1E6nt1wyvqp8gWWjHcFVmXNUKhwNAzXegQqPZOy+rSywRR6OrTjDMkatpOQHacjWz2BN5DCmryh4eIBatEzRqMbjlc2ZMFkUrBkPLoFNUVCwl5AT6FxTaoSprSah8U0+bJj9UqRcAqlO9RpkTMRujpwySJZxu0ExiDMMEYmYjt//hffDUyRjRvOINFXx0k9NdF58sON6n5jEl+kh/KnnNm0sVDONExgIIfxypBhuXdzc1OmwKryIwM9QeBXFDoPdZRiBToWWDYcLL4yZqld2JLCMfYPQrF4tM4tqPWWicqOgXfk2DyP5hJkgM24AGOVnODTtaTBBlJZvuXRmzqps3sMYOVHw3HmiglxhV5pecTR37FPqM+iEMQEB5Gj4AuxDOqmSgCb4PBsOKVXl+8x5EIdJ0ljPRTFvgZmsZVj1kEX/uLu+ta/vl09+Xebhb9Z3D/T3UUeD1ctr/3Vtb94un3YLNab5cNz5YUmPVmE/9ZP/nrz4X5zt35u0n39Cvj41gbQvSIdcCbtSf/SyW7Oy0YC/e9d7We7+16+u31NVQY5Vi3NdZDhL+75w3pYxEQo5ex3i8MHZrGePhlsqh/H+f1o0+pwTpkJqryA41YXUI/lWv0FkT0Z7ZLSYPjAd/xEnMqsrlcmYW6iAtsIdxnSzVQ9cKOoT8lDa9XcpEnMLV3ejrtdkMZCQSPtZV4Osn6ZAVDwCKSBHs1dP7ncvcO47pDcBBayXAyvCA8Q1mVG4Fogtd1iZf53wfVgb6tyHrn3+uNP/LXnhodccHt01s6LEFVoG/5aq5629Ujz2eoPFsOWFcIGVVNEF6CM00fLQWe8tWQ5H9yXXFXrLBsMuRDrq6t55QrdvBC1JV6pE8/yoPJ7q3YgG+eTYA/4DgPz9qvS1uFe/wEe5LoE4xUAAA=="
+  }
+}

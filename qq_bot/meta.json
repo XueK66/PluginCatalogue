@@ -1,0 +1,17 @@
+{
+  "schema_version": 4,
+  "id": "qq_bot",
+  "name": "QQBot",
+  "version": "2.0.1",
+  "link": "https://github.com/Minecraft-QQBot/Plugin.McdReforged",
+  "authors": [],
+  "dependencies": {},
+  "requirements": [
+    "mcdreforged~=2.12.3",
+    "websocket-client~=1.8.0",
+    "psutil~=6.0.0"
+  ],
+  "description": {
+    "en_us": "一个基于 Nonebot2 的 Minecraft 服务器 QQ 机器人对接的 Mcdr 插件，支持多服使用。"
+  }
+}
